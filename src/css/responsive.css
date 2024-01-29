@@ -11,15 +11,20 @@
     }
 
     .home .informacoes {
-        padding: 30px;
+        padding: 20px;
+    }
+
+    .home .informacoes .texto {
+        font-size: 15px;
+        line-height: .08;
     }
 
     .home .informacoes img {
-        max-width: 100px;
+        max-width: 80px;
     }
 
     .home .informacoes .titulo {
-        font-size: 40px;
+        font-size: 30px;
     } 
     
     .compre-ja .cartao {
@@ -59,6 +64,13 @@
     }
 
     .compre-ja .cartao .capa-do-jogo {
-        max-width: 80%;
+        max-width: 300%;
+    }
+
+    .btn-plataforma {
+        margin-top: -30px;
+        padding: 10px  30px;
+        font-size: 20px;
+        width: auto;     
     }
 }
