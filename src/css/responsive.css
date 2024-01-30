@@ -17,6 +17,7 @@
     .home .informacoes .texto {
         font-size: 15px;
         line-height: .08;
+        
     }
 
     .home .informacoes img {
@@ -58,7 +59,7 @@
     }
 }
 
-@media (max-width:425px) {
+@media (max-width:425px), (max-width:1024px) {
     main::after {
         background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
     }
@@ -71,6 +72,15 @@
         margin-top: -30px;
         padding: 10px  30px;
         font-size: 20px;
-        width: auto;     
+        width: auto; 
+     }
+
+     .home .informacoes .texto {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+
+    .compre-ja .cartao {
+        width: 100%;
     }
 }
